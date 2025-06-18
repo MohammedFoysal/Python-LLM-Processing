@@ -2,7 +2,7 @@
 
 ## Task
 
-Context data is often packaged along with the user's input when calling a Large Language Models (LLMs). But this LLM can only manage a certain number of tokens per chunk.
+Context data is often packaged along with the user's input when calling Large Language Models (LLMs). But this LLM can only manage a certain number of tokens per chunk.
 
 - Your task is to call the simulated LLM `invoke_llm` function using the user's input, model selection and the context data from `data.py`.
 - You will need to break the context data into chunks based on the number of tokens (for this exercise you can think of a token as a single word in the string).
