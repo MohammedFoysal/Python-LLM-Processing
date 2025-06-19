@@ -26,4 +26,4 @@ def main(user_input: str, model_name: str):
     invoke_llm(user_input, model_name, chunks)
 
 if __name__ == "__main__":
-    main("What is the capital of france?", "gpt-4o")
+    main("Does Acme Org support remote working", "gpt-4o")
