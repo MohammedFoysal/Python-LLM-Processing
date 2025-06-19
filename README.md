@@ -23,11 +23,15 @@ Remember to write tests and build the best solution possible to showcase your sk
 - You can only use the standard python libraries
 - You should not modify the `invoke_llm` function
 
-## Extension
-After every LLM request we need to charge the user based on their usage. Log out how much the user is required to pay in pounds based on the following rules:
+## Extensions
+1. After every LLM request we need to charge the user based on their usage. Log out how much the user is required to pay in pounds based on the following rules:
 
 ```
 - gpt-3.5-turbo charges 3p per token
 - gpt-4 charges 20p per token
 - gpt-4o charges 10p per token
 ```
+
+2. Write a function that analyses the context data to count how often each word appears. Print the 10 most frequent words in order from most to least common.
+
+3. To save on token costs, clean the context data passed into the LLM by removing common words e.g. "the", "and", "a", "to"
